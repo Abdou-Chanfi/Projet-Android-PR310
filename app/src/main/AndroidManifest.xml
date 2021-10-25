@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.gestionscolaire30">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.GestionScolaire30">
+        <activity
+            android:name=".DetailsModule"
+            android:exported="true" />
+        <activity
+            android:name=".ListeModule"
+            android:exported="true" />
+        <activity
+            android:name=".AjouterModule"
+            android:exported="true" />
+        <activity
+            android:name=".AcceuilModule"
+            android:exported="true" />
+        <activity
+            android:name=".DetailsProfesseur"
+            android:exported="true" />
+        <activity
+            android:name=".ListeProfesseur"
+            android:exported="true" />
+        <activity
+            android:name=".AjouterProfesseur"
+            android:exported="true" />
+        <activity
+            android:name=".AcceuilProfesseur"
+            android:exported="true" />
+        <activity
+            android:name=".Professeur.AcceuilProfesseur"
+            android:exported="true" />
+        <activity
+            android:name=".DetailsEtudiant"
+            android:exported="true" />
+        <activity
+            android:name=".ListeEtudiant"
+            android:exported="true" />
+        <activity
+            android:name=".AjouterEtudiants"
+            android:exported="true" />
+        <activity
+            android:name=".AcceuilEtudiants"
+            android:exported="true" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
